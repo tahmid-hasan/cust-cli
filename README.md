@@ -26,14 +26,14 @@ After install it globally please execute this command to use it from anywhere fr
 
 This is the commands you can use from command line for customer cli
 
-`customer-cli --version` | This will show you the version of this app.
+`customer-cli --version` | To get the app version.
 
-`customer-cli add` or `customer-cli a` This command is to add user from command line.
+`customer-cli add` or `customer-cli a` | To add user in DB.
 
-`customer-cli find <name>` or `customer-cli f <name>` This command is to find a specific user from DB.
+`customer-cli find <name>` or `customer-cli f <name>` | To find a specific user from DB.
 
-`customer-cli u <_id>` or `customer-cli u <_id>` This command is to update existing user. At first find a user and grab the ObjectID of that user and use it as _id.
+`customer-cli u <_id>` or `customer-cli u <_id>` | To update existing user. At first find a user and grab the ObjectID of that user and use it as _id.
 
-`customer-cli remove <_id>` or `customer-cli r <_id>` This command is to remove an user from DB. Like update user here at first find a user and grab the ObjectID of that user and use it as _id.
+`customer-cli remove <_id>` or `customer-cli r <_id>` | To remove an user from DB. Like update user here at first find a user and grab the ObjectID of that user and use it as _id.
 
-`customer-cli list` or `customer-cli l` This command is to get all the users list from DB.
+`customer-cli list` or `customer-cli l` | To get all the users list from DB.
