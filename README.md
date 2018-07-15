@@ -8,7 +8,7 @@ Before install it please ensure that NodeJS and NPM have already installed on yo
 
 ## Install With Command Line
 
-To install this package as globally simply execute this command from your CMD/Git Bash
+To install this package globally simply execute this command from your CMD or Git Bash or Powershell
 
 `npm install --global https://github.com/tahmid-hasan/cust-cli.git`
 
