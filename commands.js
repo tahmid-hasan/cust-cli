@@ -44,7 +44,7 @@ program
 // Add Customer Command
 program
     .command('add')
-    .alias('-a')
+    .alias('a')
     .description('Add a customer')
     .action(() => {
         prompt(questions).then(answers => addCustomer(answers));
@@ -53,7 +53,7 @@ program
 // Find Customer Command
 program
     .command('find <name>')
-    .alias('-f')
+    .alias('f')
     .description('Find a customer')
     .action(name => {
         findCustomer(name);
@@ -62,7 +62,7 @@ program
 // Update Customer Command
 program
     .command('update <_id>')
-    .alias('-u')
+    .alias('u')
     .description('Update a customer')
     .action(_id => {
         prompt(questions)
@@ -77,14 +77,14 @@ program
 // Update Customer Command
 program
     .command('remove <_id>')
-    .alias('-r')
+    .alias('r')
     .description('Remove a customer from database')
     .action(_id => removeCustomer(_id));
 
 // Get a full list of customers
 program
     .command('all')
-    .alias('-l')
+    .alias('l')
     .description('Get a list of all customers')
     .action(() => listCustomers());
 
